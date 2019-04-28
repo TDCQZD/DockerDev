@@ -1,4 +1,5 @@
 # DockerFile解析
+Dockerfile 将在您的容器内定义环境中执行的操作。
 ## 是什么
   Dockerfile是用来构建Docker镜像的构建文件，是由一系列命令和参数构成的脚本。
 ### 构建三步骤
