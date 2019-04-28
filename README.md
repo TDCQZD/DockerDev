@@ -46,8 +46,22 @@ Docker 容器通过 Docker 镜像来创建。
 |Docker 主机(Host)|一个物理或者虚拟的机器用于执行 Docker 守护进程和容器。
 |Docker 仓库(Registry)|Docker 仓库用来保存镜像，可以理解为代码控制中的代码仓库。Docker Hub(https://hub.docker.com)| 提供了庞大的镜像集合供使用。
 |Docker Machine|Docker Machine是一个简化Docker安装的命令行工具，通过一个简单的命令行即可在相应的平台上安装Docker，比如VirtualBox、 Digital Ocean、Microsoft Azure。
+## Docker 工具-三剑客
+- docker-machine
+
+    docker-machine就是docker公司官方提出的，用于在各种平台上快速创建具有docker服务的虚拟机的技术，甚至可以通过指定driver来定制虚拟机的实现原理（一般是virtualbox）。
+- docker-compose
+
+    dcoker-compose技术，就是通过一个.yml配置文件，将所有的容器的部署方法、文件映射、容器连接等等一系列的配置写在一个配置文件里，最后只需要执行`docker-compose up`命令就会像执行脚本一样的去一个个安装容器并自动部署他们。
+- docker-swarm
+
+    swarm是基于docker平台实现的集群技术，可以通过几条简单的指令快速的创建一个docker集群，接着在集群的共享网络上部署应用，最终实现分布式的服务。
+
+
+
+
 ## 参考资料
 * [docker官网]：http://www.docker.com
 * [docker中文网站]：https://www.docker-cn.com/
 * [Docker Hub官网] https://hub.docker.com/
-* http://www.runoob.com/docker/docker-architecture.html
+* https://www.runoob.com/docker/docker-resources.html

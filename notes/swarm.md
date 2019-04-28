@@ -11,4 +11,11 @@ swarm 管理节点是 swarm 中可以执行命令或授权其他机器加入 swa
 swarm 由多个节点组成，这些节点可以是物理或虚拟机。
 
 基本概念非常简单：运行 `docker swarm init` 以启用 swarm mode 并使当前机器成为 swarm 管理节点，然后在其他机器上运行 `docker swarm join`，使它们以工作节点形式加入 swarm。
+
+步骤如下：
+- docker-machine创建节点
+- docker swarm 创建swarm集群
 ## 在集群上部署应用
+## 访问集群
+## 参考资料
+* https://jiayi.space/post/docker-swarmrong-qi-ji-qun-guan-li-gong-ju
