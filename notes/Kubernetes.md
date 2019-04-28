@@ -1,4 +1,4 @@
-# Kubernetes
+# Kubernetes k8s
 Kubernetes是Google开源的容器集群管理系统，是基于Docker构建一个容器的调度服务，提供资源调度、均衡容灾、服务注册、动态扩缩容等功能套件。
 
 Kubernetes提供应用部署、维护、 扩展机制等功能，利用Kubernetes能方便地管理跨机器运行容器化的应用，其主要功能如下：
