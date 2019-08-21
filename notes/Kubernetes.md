@@ -9,4 +9,9 @@ Kubernetes提供应用部署、维护、 扩展机制等功能，利用Kubernete
 - 5）自动管理和修复容器。
 
 ## 参考资料
+* http://docs.kubernetes.org.cn/227.html
+* https://kubernetes.io/zh/docs/tutorials/kubernetes-basics/
+
+* https://github.com/kubernetes/kubernetes
+* https://kubernetes.io/zh/docs/home/
 * https://cloud.tencent.com/developer/article/1025984
